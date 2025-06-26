@@ -121,4 +121,9 @@ def download_video(request: ShareURLRequest):
 @app.get("/hello")   
 def hello():
 	return {"message": "Wellcome server is running"}
+
+
+@app.get("/welcome")   
+def welcome():
+	return {"message": "Wellcome server is running"}
     
